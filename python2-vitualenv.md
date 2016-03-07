@@ -1,10 +1,7 @@
-title: virtualenv 使用/打包/迁移
-categories:
-  - Python
-tags:
-  - virtualenv
-date: 2015-12-29 10:43:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # virtualenv 
 ## 安装

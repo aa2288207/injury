@@ -1,10 +1,7 @@
-title: scp 命令
-categories:
-  - Linux
-tags:
-  - scp
-date: 2015-12-29 12:43:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # scp 命令
 scp linux 传输文件

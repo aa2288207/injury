@@ -1,10 +1,7 @@
-title: 正则表达式
-categories:
-  - 正则表达式
-tags:
-  - 正则表达式
-date: 2016-01-14 13:36:47
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # 常用表达式
 

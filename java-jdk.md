@@ -1,10 +1,7 @@
-title: jdk 8 安装
-categories:
-  - Java
-tags:
-  - Java
-date: 2015-12-28 10:43:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # jdk 8 安装
 

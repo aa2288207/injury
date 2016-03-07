@@ -1,11 +1,7 @@
-title: windwos pip-cache-error
-categories:
-  - Python
-  - pip
-tags:
-  - pip
-date: 2015-12-26 20:35:39
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # error信息：
 ```

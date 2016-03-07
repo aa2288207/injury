@@ -1,10 +1,7 @@
-title: mongodb 安装
-categories:
-  - MongoDB
-tags:
-  - MongoDB
-date: 2015-12-28 10:41:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # mongodb 远程访问
  - 修改<code>/etc/mongodb.conf</code> 文件

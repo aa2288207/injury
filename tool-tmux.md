@@ -1,10 +1,7 @@
-title: tmux
-categories:
-  - tmux
-tags:
-  - tmux
-date: 2015-12-28 10:37:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # tmux
 

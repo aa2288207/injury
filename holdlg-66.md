@@ -1,9 +1,6 @@
-title: 六十六卷
-categories:
-  - 六十六卷
-tags:
-  - 六十六卷
-date: 2016-01-08 09:36:47
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 #东冉虽一，小二，妮妮止鸣

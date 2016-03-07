@@ -1,10 +1,7 @@
-title: PhotoShop
-categories:
-  - PhotoShop
-tags:
-  - PhotoShop CC
-date: 2016-01-13 09:59:19
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # 常用快捷键
 ```

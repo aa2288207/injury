@@ -1,10 +1,7 @@
-title: svn命令
-categories:
-  - svn
-tags:
-  - svn
-date: 2015-12-29 14:37:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # svn
 代码管理工具

@@ -1,10 +1,7 @@
-title: Linux常用命令
-categories:
-  - Linux
-tags:
-  - Shell
-date: 2015-12-31 10:44:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # 安装
   中文字体 <code>sudo apt-get install ttf-wqy-*</code>

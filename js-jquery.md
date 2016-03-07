@@ -1,10 +1,7 @@
-title: jquery 学习
-categories:
-  - jquery
-tags:
-  - jquery
-date: 2015-12-18 18:08:24
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # jquery 嵌套选择和class多项选择
 

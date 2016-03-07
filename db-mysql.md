@@ -1,10 +1,7 @@
-title: MySQL5.6设置
-categories:
-  - MySQL
-tags:
-  - MySQL
-date: 2016-01-29 10:40:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # 数据库命名规范
 

@@ -1,10 +1,7 @@
-title: flask 学习
-categories:
-  - Python
-tags:
-  - flask
-date: 2016-01-21 14:36:47
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # from flask import request
 ```

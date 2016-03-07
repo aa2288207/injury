@@ -1,10 +1,7 @@
-title: KVM
-categories:
-  - KVM
-tags:
-  - KVM
-date: 2015-12-28 10:42:04
----
+```
+Author: holdlg
+Last updated: 2016-03-07 10:23:04
+```
 
 # 安装
 1.ubuntu14 安装命令
