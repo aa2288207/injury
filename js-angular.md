@@ -10,7 +10,7 @@ Last updated: 2016-03-30 11:00:04
 
 ## 有关angular 2 
 知道多少说多少,参考[Angular 2 quickstart](https://angular.io/docs/ts/latest/quickstart.html),不要问为什么。
-
+![angular2 5分钟入门](https://raw.githubusercontent.com/holdlg/injury/master/img/js/angular2.png)
 ## 有关组件化说明
 组件化的思想，什么是组件化？组件化就是组件化呗。大概就和搭积木一样了，自己脑补一下吧，o(^▽^)o。。。。
 
@@ -180,3 +180,4 @@ body, input[text], button {
 ```
 
 ### npm start
+- 查看浏览器 http://localhost:3000
