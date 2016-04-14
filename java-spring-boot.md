@@ -73,3 +73,6 @@ public class Application extends SpringBootServletInitializer {
 ```
 - 启动tomcat即可
 - 访问：<code>http://localhost:8080/greeting</code>
+
+# application.yml 中文启动异常
+在<code>application.yml</code>->右键-><code>properties</code>-><code>text file encode</code> -><code>others(utf-8)</code>
