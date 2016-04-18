@@ -76,3 +76,78 @@ public class Application extends SpringBootServletInitializer {
 
 # application.yml 中文启动异常
 在<code>application.yml</code>->右键-><code>properties</code>-><code>text file encode</code> -><code>others(utf-8)</code>
+
+
+# SpringMVC控制器的rest风格和模板风格
+- restful风格 <code>@RestController</code>
+- <code>import org.springframework.web.bind.annotation.RestController;</code>
+- return String/Json Type
+
+```
+package com.holdlg.controller;
+
+import com.holdlg.service.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * Created by holdlg on 2016/4/14.
+ */
+
+@RestController
+public class CustomerController {
+
+    @Autowired
+    private CustomerService customerService;
+
+    @RequestMapping("/greeting/{lastName}")
+    public String greetingCustomer(@RequestParam(value="firstName", defaultValue = "wang") String firstName,
+                                   @PathVariable String lastName,
+                                   Model model){
+        String result = customerService.greetingCustomer(firstName, lastName);
+        return result;  // 字符串
+    }
+
+}
+```
+
+- 模板风格 <code>@Controller</code>
+- <code>import org.springframework.stereotype.Controller;</code>
+- reutrn 模板名称
+
+```
+package com.holdlg.controller;
+
+import com.holdlg.service.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.stereotype.Controller;
+
+/**
+ * Created by holdlg on 2016/4/14.
+ */
+
+@Controller
+public class CustomerController {
+
+    @Autowired
+    private CustomerService customerService;
+
+    @RequestMapping("/greeting/{lastName}")
+    public String greetingCustomer(@RequestParam(value="firstName", defaultValue = "wang") String firstName,
+                                   @PathVariable String lastName,
+                                   Model model){
+        String result = customerService.greetingCustomer(firstName, lastName);
+        model.addAttribute("result", result);
+        return "customer";  // 模板名称 /src/main/resources/templates/customer.html
+    }
+
+}
+```
