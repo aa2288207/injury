@@ -42,9 +42,14 @@ spring.jpa:
     @RequestMapping("/console/list/{page}")
     public Page<ConsoleInfo> getConsoleInfoList(@PathVariable int page){
         int pageSize = 10; 
-        // new Sort() 排序
+        // new Sort() 排序 其中"id", "honId"和  实体类  的  字段名  一样
+
+        // 简洁写法
+        // Pageable pageable = new PageRequest(page, pageSize, Sort.Direction.DESC, "id", "honeyId");
+        
+        // 灵活写法，可以定义不同字段的DESC和ASC
         Pageable pageable = new PageRequest(page, pageSize,
-                new Sort(Sort.Direction.DESC, "id").and(new Sort(Sort.Direction.DESC, "honeyId")));
+                new Sort(Sort.Direction.DESC, "id").and(new Sort(Sort.Direction.DESC, "honId")));
         return consoleInfoService.getConsoleInfoList(pageable);
     }
 
