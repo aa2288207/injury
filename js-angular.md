@@ -177,16 +177,14 @@ body, input[text], button {
 ### npm start
 - 查看浏览器 http://localhost:3000
 
-
-
 # @Component
-- <code>selector</cdoe>
-- <code>template</cdoe>
-- <code>templateUrl</cdoe>
-- <code>host</cdoe>给<code>selector</cdoe>添加class属性
-- <code>style</cdoe>
-- <code>styleUrls</cdoe>
-- <code>inputs</cdoe>
+- <code>selector</code>
+- <code>template</code>
+- <code>templateUrl</code>
+- <code>host</code>给<code>selector</code>添加class属性
+- <code>style</code>
+- <code>styleUrls</code>
+- <code>inputs</code>
 
 # Angular 编码风格
 - [angular2 编码风格](https://angular.io/styleguide)
@@ -205,11 +203,11 @@ body, input[text], button {
 
 ##### Style 02-01 通用命名规则
 - 依据文件类型使用统一的后缀命名
-- 如：<code>hero.type.ts</cdoe> 
+- 如：<code>hero.type.ts</code> 
 
 ##### Style 02-02 文件名
 - 命名使用“-”连字符和“.”点链接
-- 使用常规后缀 <code>*.service.ts</cdoe> , <code>*.component.ts</cdoe> , <code>*.pipe.ts</cdoe> 
+- 使用常规后缀 <code>*.service.ts</code> , <code>*.component.ts</code> , <code>*.pipe.ts</code> 
 
 ##### Style 02-03 组件和指令
 - 文件名和类名一致 (e.g <code>class HoldlgDataComponent</code> <code>holdlg-data.component.ts</code>)
@@ -241,4 +239,3 @@ body, input[text], button {
 ##### Style 05-17 逻辑展示
 - 不要再模板中显示逻辑算法的过程
 - 如<code>+</code>,<code>-</code>计算，在组件中实现
-
